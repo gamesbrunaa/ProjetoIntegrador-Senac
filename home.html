@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style9.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <a href="home.html"><img src="assets/Rosa_Maria_Manicure_e_Pedicure_Logotipo_Rosa_Branco-removebg-preview.png" alt="logo" class="logo">
+        </a>
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li> <a href="servicos.html"> Serviços </a> </li>
+            <li> <a href="agendamento.html" > Agendamento </a> </li>
+            <li> <a href="profissionais.html"> Profissionais </a> </li>
+            <li> <a href="galeria.html"> Galeria </a> </li>
+            <li> <a href="login.html" class="botao" button="botao"> Login </a> </li>
+        </ul>
+    </nav>
+
+    <div id="divBusca">
+        <input id="txtBusca" type="text" name="name" placeholder="Pesquisar">
+        <img src="assets/lupa.png" id="btnBusca" alt="Buscar"/>
+    </div>
+
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="assets/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/5.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <label class= "bar" for="slide1"></label>
+            <label class= "bar" for="slide2"></label>
+            <label class= "bar" for="slide3"></label>
+            <label class= "bar" for="slide4"></label>
+            <label class= "bar" for="slide5"></label>
+        </div>
+    </div>
+
+    <div id="cards">
+        <div class="servicos">
+            <img src="assets/EMBELEZAMENTO-DE-PÉS-E-MÃOS.png" alt="Pé e Mão" class="imagem">
+            <h3>Pé e Mão</h3>
+            <a href="agendamento.html" class="botao2" button="botao"> Conferir </a>
+        </div>
+        <div class="servicos">
+            <img src="assets/unhasdegel.jpg" alt="Unhas de Gel" class="imagem">
+            <h3>Unhas de Gel</h3>
+            <a href="agendamento.html" class="botao2" button="botao"> Conferir </a>
+        </div>
+        <div class="servicos">
+            <img src="assets/unhasdefibra.jpg" alt="Unhas de Fibra" class="imagem">
+            <h3>Unhas de Fibra</h3>
+            <a href="agendamento.html" class="botao2" button="botao"> Conferir </a>
+        </div>
+        <div class="servicos">
+            <img src="assets/postica.jpg" alt="Unhas Postiças" class="imagem">
+            <h3>Unhas Postiças</h3>
+            <a href="agendamento.html" class="botao2" button="botao"> Conferir </a>
+        </div>
+    </div>
+
+    <footer></footer>
+</body>
+</html>
