@@ -9,8 +9,16 @@ body{
     background-color: #F2E9EB;
 }
 
+body img{
+    margin-top: -20px;
+}
+
 div{
     text-align: center;
+}
+
+.top{
+    margin-top: -150px;
 }
 
 h1{
@@ -87,3 +95,4 @@ a:hover{
     color: #F23064;
     border: #F23064 1px solid;
 }
+

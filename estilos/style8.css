@@ -89,6 +89,10 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 
+.servicos:hover{
+    transform: scale(1.1);
+}
+
 h3{
     color: #f23064;
     padding: 10px;

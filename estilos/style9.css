@@ -65,8 +65,8 @@ nav ul li a:hover{
 }
 
 .content{
-    height: 600px;
-    width: 1200px;
+    height: 500px;
+    width: 900px;
     border-radius: 12px;
     overflow: hidden;
     position: absolute;
@@ -84,8 +84,8 @@ nav ul li a:hover{
 }
 
 .bar{
-    width: 70px;
-    height: 17px;
+    width: 50px;
+    height: 20px;
     border: 2px solid #f23064;
     margin: 6px;
     border-radius: 5px;
@@ -146,8 +146,8 @@ input{
     border:solid 1px;
     border-radius: 10px;
     border: none;
-    margin-left: 25%;
-    margin-top: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
 }
   
 #txtBusca{
@@ -201,6 +201,10 @@ input{
     justify-content: center;
     align-items: center;
     background-color: #f23064;
+}
+
+.servicos:hover{
+    transform: scale(1.1);
 }
 
 .servicos {
@@ -260,9 +264,54 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid #F2AEC1;  
 }
 
-@media only screen and (max-device-width: 700px) {
-    .slides{
-        width: 50%;
-        height: 25%;
+@media screen and (max-width: 300px) {
+    /* estilos */
+}
+
+@media screen and (max-width: 900px) {
+    nav{
+        height: 50px;
+    }
+
+    nav ul{
+        margin-left: 10%;
+    }
+
+    nav ul li a{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 8px 10px;
+ 
+    }
+
+    .botao, button{
+        margin-left: 25px;
+        padding: 4px 15px;
+        box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+    .logo{
+        margin-left: -80px;
+        margin-top: 1px;
+        width: 100px;
+        height: 45px;
+    }
+
+    .content{
+        height: 300px;
+        width: 600px;
+    }
+
+    #divBusca{
+        width: 400px;
+    }
+
+    #txtBusca{
+        font-size:14px;
+        width:400px;
+    }
+    
+    #txtBusca::placeholder {
+        margin-left: 250px;
     }
 }
